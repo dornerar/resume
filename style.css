@@ -1,0 +1,103 @@
+body {
+  margin: 10px;
+  padding: 0px;
+  border: 150px solid rgba(10, 200, 0, 0);
+  background-color: #dbedd7;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: black;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', serif;
+  color: green;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+a:link, a:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkorange;
+}
+
+a:focus {
+  outline: 2px solid yellow;
+}
+
+header {
+  text-align: center;
+}
+
+header img {
+  display: block;
+  margin: auto;
+  border-radius: 80%;
+}
+
+section {
+  padding: 20px;
+  margin-top: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+  list-style-position: inside;
+  list-style-image: url('emerald1.png');
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+h1::first-letter {
+  font-size: 3rem;
+  color: green;
+}
+
+header p {
+  color: green;
+  font-size: 1rem;
+}
+
+header p strong {
+  font-weight: bold;
+}
+
+header {
+  background-image: url('background-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+ul {
+  letter-spacing: 0.5px;
+  line-height: 1.8;
+}
+
+header, section {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+#eheader2 {
+  font-style: italic;
+}
